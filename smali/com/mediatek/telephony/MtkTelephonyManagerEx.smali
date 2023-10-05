@@ -3086,7 +3086,7 @@
     .param p1, "slotId"    # I
 
     .line 1353
-    invoke-static {p1}, Landroid/telephony/SubscriptionManager;->getSimStateForSlotIndex(I)I
+    invoke-static {p1}, Landroid/telephony/TelephonyManager;->getSimStateForSlotIndex(I)I
 
     move-result v0
 
@@ -3131,7 +3131,7 @@
     .param p1, "slotId"    # I
 
     .line 1324
-    invoke-static {p1}, Landroid/telephony/SubscriptionManager;->getSimStateForSlotIndex(I)I
+    invoke-static {p1}, Landroid/telephony/TelephonyManager;->getSimStateForSlotIndex(I)I
 
     move-result v0
 
