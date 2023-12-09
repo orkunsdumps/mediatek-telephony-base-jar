@@ -1,0 +1,1 @@
+# mediatek-telephony-base-jar
